@@ -23,12 +23,12 @@ body {
   overflow: hidden;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+transition: 0.5s all;
 }
 
 .product-card:hover{
   transition: 0.5s all;
-  transition: 0.5s all;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
 }
 
 .product-image {
@@ -80,6 +80,10 @@ body {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 10px;
+}
+
+.product-price-old{
+  text-decoration: line-through;
 }
 
 .product-buttons {

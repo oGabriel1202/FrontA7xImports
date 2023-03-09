@@ -37,6 +37,7 @@ export default function Card(props: cardProps) {
               <span className="rating-count">(4.0)</span>
             </div>
             <p className="product-price">R$ {props.name}</p>
+            <p className="product-price-old">R$ {props.instagram}</p>
           </div>
           <div className="product-buttons">
             <button className="buy-button">Adquirir</button>
