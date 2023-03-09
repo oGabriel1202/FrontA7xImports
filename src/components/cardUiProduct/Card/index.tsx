@@ -15,12 +15,17 @@ export default function Card(props: cardProps) {
         <div className="product-card">
           <div className="product-image">
             <img
-              src="https://via.placeholder.com/150"
+              src={
+                props.local == ''
+                  ? 'https://via.placeholder.com/150'
+                  : props.local
+              }
               alt="Imagem do Produto"
             />
           </div>
+          <div className="hr"></div>
           <div className="product-info">
-            <h2 className="product-name">Nome do Produto</h2>
+            <h2 className="product-name">{props.github}</h2>
             <div className="product-rating">
               <div className="stars">
                 <i className="fas fa-star"></i>
@@ -31,10 +36,10 @@ export default function Card(props: cardProps) {
               </div>
               <span className="rating-count">(4.0)</span>
             </div>
-            <p className="product-price">R$ 99,99</p>
+            <p className="product-price">R$ {props.name}</p>
           </div>
           <div className="product-buttons">
-            <button className="buy-button">Comprar</button>
+            <button className="buy-button">Adquirir</button>
             <button className="favorite-button">
               <i className="far fa-heart"></i>Favoritar
             </button>

@@ -58,7 +58,7 @@ export default function Input(props: inputProps) {
               />
               <span className="highlight"></span>
               <span className="bar"></span>
-              <label>Username Github</label>
+              <label>Nome do Produto</label>
             </div>
             <div className="group">
               <input
@@ -69,7 +69,7 @@ export default function Input(props: inputProps) {
               />
               <span className="highlight"></span>
               <span className="bar"></span>
-              <label>Name</label>
+              <label>Valor</label>
             </div>
 
             <div className="group">
@@ -81,7 +81,7 @@ export default function Input(props: inputProps) {
               />
               <span className="highlight"></span>
               <span className="bar"></span>
-              <label>Localization</label>
+              <label>Link da imagem</label>
             </div>
 
             <div className="group">

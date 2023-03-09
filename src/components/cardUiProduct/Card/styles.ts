@@ -22,6 +22,13 @@ body {
   border-radius: 5px;
   overflow: hidden;
   margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.product-card:hover{
+  transition: 0.5s all;
+  transition: 0.5s all;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .product-image {
@@ -32,7 +39,13 @@ body {
 .product-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
+}
+
+.hr{
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .product-info {
